@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<!--
+
+ Author: Daniel Tujo
+
+ Class:  Software Engineering
+
+ Project: Lab 2 / Web Portfolio
+
+ Description: Portfolio landing page for previous, current, and future projects.
+
+-->
 <html>
     <head>
         <meta charset="utf-8">        
@@ -7,7 +18,9 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <!-- Set container through this page to hold elements for easier structuring and organization.-->
         <div class="bio-container">
+            <!-- Element inside the container that holds the bio information.-->
             <div id="bio">
                 <h1>Daniel Tujo</h1>
                 <img src="profile_photo.jpg" alt="profile-photo" class="profile-photo">
@@ -18,7 +31,9 @@
             </div>
         </div>
         <br>  
+        <!-- Another container to hold elements in. This particular one uses flex layout to display element side by side-->
         <div class="projects-container">
+            <!-- This "project" element is displayed in flex with skills element below so they appear side by side. Flex is easier to use the inline-block.-->
             <div class="project">
                 <h2>Project Highlights</h2>
                 <ul>
@@ -32,6 +47,7 @@
                     <li><a href="https://ambitious-beach-001943710.azurestaticapps.net/" target="_blank">Dice Roller</a>
                 </ul>
             </div>
+            <!-- Skills element mentioned above. Has different images and logos inside this element.-->
             <div class="skills">
                 <h2>Skills</h2>
                 <img class="logos" src="python-logo.png">
